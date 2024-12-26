@@ -1,67 +1,39 @@
-# Nombre de producto
-> Breve descripción de lo que hace tu producto.
+# Atlas Electoral
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+## Descripción del Proyecto
 
-Uno o dos párrafos sobre tu producto y el problema que resuelve.
+El proyecto **Atlas Electoral** está diseñado para analizar y visualizar datos electorales en Argentina, integrando circuitos electorales con información demográfica y generando poblaciones sintéticas para análisis estadísticos. Este repositorio es una herramienta clave para investigadores, analistas de políticas públicas y especialistas en datos interesados en explorar comportamientos electorales y patrones socioeconómicos a través de datos geoespaciales.
 
-![](../header.png)
+## Características Principales
+
+- **Análisis Geoespacial:** Mapeo de circuitos electorales y análisis basado en fronteras geográficas.
+- **Generación de Poblaciones Sintéticas:** Creación de datos simulados para representar dinámicas de población y comportamiento electoral.
+- **Modelos de Aprendizaje Automático:** Entrenamiento de modelos para predecir resultados electorales y analizar tendencias demográficas.
+- **Integración de Datos:** Combinación de datos electorales, censales y de encuestas para crear datasets completos.
+
+## Estructura del Repositorio
+
+- `data/`: Contiene los datasets utilizados para el análisis (circuitos electorales, datos censales, etc.).
+- `notebooks/`: Notebooks Jupyter que documentan los procesos de análisis, generación de datos sintéticos y visualización.
+- `scripts/`: Scripts en Python para el procesamiento y análisis de datos, como `satellite.py`.
+- `results/`: Carpeta opcional para almacenar resultados generados (modelos entrenados, visualizaciones, etc.).
+- `README.md`: Este documento, con instrucciones detalladas del proyecto.
 
 ## Instalación
 
-OS X y Linux:
+### Requisitos Previos
+- **Python 3.8+**
+- **Bibliotecas necesarias:**
+  - pandas
+  - geopandas
+  - matplotlib
+  - scikit-learn
+  - folium (para mapas interactivos)
+  - jupyterlab (opcional, para ejecutar notebooks)
 
-```sh
-npm install my-crazy-module --save
-```
+### Instrucciones
 
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Ejemplo de uso
-
-Algunos casos de ejemplo sobre cómo utilizar tu producto. Algunos bloques de código y capturas de pantalla harán que sea más atractivo.
-
-## Configuración de desarrollo
-
-Describe como instalar todas las dependencias y como ejecutar la batería de tests (en caso de tenerla). Si funciona en múltiples plataformas intenta describirlas todas si tuviesen pasos diferentes.
-
-```sh
-make install
-npm test
-```
-
-## Historial de versiones
-
-* 0.2.1
-    * CAMBIO: Actualizada la documentación (el módulo de código permanece igual)
-* 0.2.0
-    * CAMBIO: Eliminado `setDefaultXYZ()`
-    * AÑADIDO: Añadido `init()`
-* 0.1.1
-    * ARREGLADO: Cuelgue cuando se llama a `baz()` (Gracias a  @NombreDelAmableContribuidor!)
-* 0.1.0
-    * La primera release
-    * CAMBIO: Renombrado `foo()` a `bar()`
-* 0.0.1
-    * Trabajo en progreso
-
-## Meta
-
-Tu nomre – [@TuTwitter](https://twitter.com/dbader_org) – TuEmail@example.com
-
-Distribuido bajo la licencia XYZ. Ver ``LICENSE`` para más información.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/matuteiglesias/Atlas_Electoral.git
+   cd Atlas_Electoral

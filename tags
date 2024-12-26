@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/matias/repos/Atlas_Electoral/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+Configuración de desarrollo	README.md	/^## Configuración de desarrollo$/;"	s	chapter:Nombre de producto
+EARTH_RADIUS	satellite.py	/^EARTH_RADIUS = 6371008.8$/;"	v
+EQUATOR_CIRCUMFERENCE	satellite.py	/^EQUATOR_CIRCUMFERENCE = 2 * pi * EARTH_RADIUS$/;"	v
+Ejemplo de uso	README.md	/^## Ejemplo de uso$/;"	s	chapter:Nombre de producto
+GOOGLE_MAPS_API_KEY	satellite.py	/^GOOGLE_MAPS_API_KEY = 'AIzaSyByncYCYXBJAh08zL2slp_qWPyigRgd0Nk'  # set to 'your_API_key'$/;"	v
+Historial de versiones	README.md	/^## Historial de versiones$/;"	s	chapter:Nombre de producto
+INITIAL_RESOLUTION	satellite.py	/^INITIAL_RESOLUTION = EQUATOR_CIRCUMFERENCE \/ 256.0$/;"	v
+Instalación	README.md	/^## Instalación$/;"	s	chapter:Nombre de producto
+Meta	README.md	/^## Meta$/;"	s	chapter:Nombre de producto
+Nombre de producto	README.md	/^# Nombre de producto$/;"	c
+ORIGIN_SHIFT	satellite.py	/^ORIGIN_SHIFT = EQUATOR_CIRCUMFERENCE \/ 2.0$/;"	v
+get_maps_image	satellite.py	/^def get_maps_image(bounds, zoom=18):$/;"	f
+latlontopixels	satellite.py	/^def latlontopixels(lat, lon, zoom):$/;"	f
+pixelstolatlon	satellite.py	/^def pixelstolatlon(px, py, zoom):$/;"	f
